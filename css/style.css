@@ -200,7 +200,7 @@ body.lock {
     right: 20px;
     height: 30px;
     width: 40px;
-    z-index: 10;
+    z-index: 1000;
   }
   .header .header__burger span {
     position: absolute;
@@ -209,7 +209,7 @@ body.lock {
     height: 2px;
     width: 100%;
     background-color: #555;
-    z-index: 10;
+    z-index: 1000;
   }
   .header .header__burger::before {
     content: "";
@@ -219,7 +219,7 @@ body.lock {
     height: 2px;
     width: 100%;
     background-color: #555;
-    z-index: 10;
+    z-index: 1000;
   }
   .header .header__burger::after {
     content: "";
@@ -229,7 +229,7 @@ body.lock {
     height: 2px;
     width: 100%;
     background-color: #555;
-    z-index: 10;
+    z-index: 1000;
   }
   .header .header__burger.active span {
     opacity: 0;
